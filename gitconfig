@@ -14,8 +14,8 @@
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
 [user]
-	name = matt.lanting
-	email = matt.lanting@soartech.com
+	name = 
+	email = 
 [color]
 	ui = true
 [merge]
