@@ -1,4 +1,4 @@
 dotfiles
 ========
 
-Collection of my preferred configuration files for apps I frequently use
+Collection of my preferred configuration files
