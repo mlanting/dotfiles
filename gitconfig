@@ -19,10 +19,10 @@
 [color]
 	ui = true
 [merge]
-    tool = threesome
+    tool = splice
 
-[mergetool "threesome"]
-    cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'ThreesomeInit'"
+[mergetool "splice"]
+    cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'SpliceInit'"
     trustExitCode = true
 [core]
 	editor = vim
