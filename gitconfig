@@ -14,15 +14,15 @@
     # Show files ignored by git:
     ign = ls-files -o -i --exclude-standard
 [user]
-	name = 
-	email = 
+	name = Matt Lanting
+	email = matt.lanting@soartech.com
 [color]
 	ui = true
 [merge]
     tool = splice
 
 [mergetool "splice"]
-    cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED -c 'SpliceInit'"
+    cmd = "vim -f $BASE $LOCAL $REMOTE $MERGED --cmd 'let g:pathogen_disabled=[\"vim-fugitive\"]' -c 'SpliceInit'"
     trustExitCode = true
 [core]
 	editor = vim
