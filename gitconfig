@@ -8,7 +8,7 @@
     lg = log -p
     lol = log --graph --decorate --pretty=oneline --abbrev-commit
     lola = log --graph --decorate --pretty=oneline --abbrev-commit --all
-    lolb = log --graph --pretty=format:'%C(yellow)%t%C(red bold)%d %Creset%C(blue)<%cn> %Creset%s' --abbrev-commit --all
+    lolb = log --graph --pretty=format:'%C(yellow)%h%C(red bold)%d %Creset%C(blue)<%cn> %Creset%s' --abbrev-commit --all
     ls = ls-files
 
     # Show files ignored by git:
